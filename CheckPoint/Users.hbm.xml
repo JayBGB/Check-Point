@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="Diservaulec.Database"
+                   namespace="Diservaulec.Database.Administration">
+
+
+	<class name="AssistanceTask" table="dbo.AssistanceTasks">
+
+		<id name="AssistanceTaskId" column="AssistanceTaskId">
+			<generator class="identity" />
+		</id>
+
+		<many-to-one name ="Assistance" column ="AssistanceId" fetch ="join"></many-to-one>
+		<property name="Description" column="Description"/>
+		<property name="Observations" column="Observations"/>
+		<property name="Status" column="Status"/>
+		<property name="CustomerResponse" column="CustomerResponse"/>
+		<property name="InitDateTime"   column="InitDateTime"/>
+		<property name="EndDateTime"   column="EndDateTime"/>
+		<property name="NumTask" column="NumTask"/>
+		<property name="AddressAlternative" column="AddressAlternative"/>
+		<property name="Pdf" column="Pdf"/>
+		<property name="PdfPath" column="PdfPath"/>
+
+		<bag name="Users" table="AssistanceUsersTasks" cascade="all" inverse = "true" >
+			<key>
+				<column name="AssistanceTaskId"  />
+			</key>
+			<many-to-many column="AssistanceUserTaskId" class="AssistanceUserTask" />
+		</bag>
+
+	</class>
+
+</hibernate-mapping>

@@ -1,0 +1,17 @@
+C:\Users\Borja\source\repos\CheckPoint\CheckPoint\bin\Debug\net8.0-windows\CheckPoint.exe
+C:\Users\Borja\source\repos\CheckPoint\CheckPoint\bin\Debug\net8.0-windows\CheckPoint.deps.json
+C:\Users\Borja\source\repos\CheckPoint\CheckPoint\bin\Debug\net8.0-windows\CheckPoint.runtimeconfig.json
+C:\Users\Borja\source\repos\CheckPoint\CheckPoint\bin\Debug\net8.0-windows\CheckPoint.dll
+C:\Users\Borja\source\repos\CheckPoint\CheckPoint\bin\Debug\net8.0-windows\CheckPoint.pdb
+C:\Users\Borja\source\repos\CheckPoint\CheckPoint\obj\Debug\net8.0-windows\CheckPoint.FrmMain.resources
+C:\Users\Borja\source\repos\CheckPoint\CheckPoint\obj\Debug\net8.0-windows\CheckPoint.Properties.Resources.resources
+C:\Users\Borja\source\repos\CheckPoint\CheckPoint\obj\Debug\net8.0-windows\CheckPoint.csproj.GenerateResource.cache
+C:\Users\Borja\source\repos\CheckPoint\CheckPoint\obj\Debug\net8.0-windows\CheckPoint.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Borja\source\repos\CheckPoint\CheckPoint\obj\Debug\net8.0-windows\CheckPoint.AssemblyInfoInputs.cache
+C:\Users\Borja\source\repos\CheckPoint\CheckPoint\obj\Debug\net8.0-windows\CheckPoint.AssemblyInfo.cs
+C:\Users\Borja\source\repos\CheckPoint\CheckPoint\obj\Debug\net8.0-windows\CheckPoint.csproj.CoreCompileInputs.cache
+C:\Users\Borja\source\repos\CheckPoint\CheckPoint\obj\Debug\net8.0-windows\CheckPoint.dll
+C:\Users\Borja\source\repos\CheckPoint\CheckPoint\obj\Debug\net8.0-windows\refint\CheckPoint.dll
+C:\Users\Borja\source\repos\CheckPoint\CheckPoint\obj\Debug\net8.0-windows\CheckPoint.pdb
+C:\Users\Borja\source\repos\CheckPoint\CheckPoint\obj\Debug\net8.0-windows\CheckPoint.genruntimeconfig.cache
+C:\Users\Borja\source\repos\CheckPoint\CheckPoint\obj\Debug\net8.0-windows\ref\CheckPoint.dll
