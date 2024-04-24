@@ -31,16 +31,21 @@
             components = new System.ComponentModel.Container();
             DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
             panelSideMenu = new Panel();
+            panel2 = new Panel();
+            pictureBox1 = new PictureBox();
             btnUserManagement = new Button();
-            btnSettings = new Button();
-            btnNotifyError = new Button();
             btnUserPanel = new Button();
+            btnNotifyError = new Button();
+            btnSettings = new Button();
             btnChangeTask = new Button();
             btnCheck = new Button();
             panelTitle = new Panel();
-            pictureBox1 = new PictureBox();
             btnSideMenu = new Button();
             panelTopMenu = new Panel();
+            btnMinimize = new Button();
+            btnMaximize = new Button();
+            pictureBox2 = new PictureBox();
+            label1 = new Label();
             btnClose = new Button();
             panelLaw = new Panel();
             lblRealDecretoLey = new Label();
@@ -52,9 +57,11 @@
             panelCheckedUsers = new DataGridView();
             timerHour = new System.Windows.Forms.Timer(components);
             panelSideMenu.SuspendLayout();
-            panelTitle.SuspendLayout();
+            panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            panelTitle.SuspendLayout();
             panelTopMenu.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             panelLaw.SuspendLayout();
             panelDateTime.SuspendLayout();
             panel1.SuspendLayout();
@@ -64,10 +71,11 @@
             // panelSideMenu
             // 
             panelSideMenu.BackColor = Color.Azure;
+            panelSideMenu.Controls.Add(panel2);
             panelSideMenu.Controls.Add(btnUserManagement);
-            panelSideMenu.Controls.Add(btnSettings);
-            panelSideMenu.Controls.Add(btnNotifyError);
             panelSideMenu.Controls.Add(btnUserPanel);
+            panelSideMenu.Controls.Add(btnNotifyError);
+            panelSideMenu.Controls.Add(btnSettings);
             panelSideMenu.Controls.Add(btnChangeTask);
             panelSideMenu.Controls.Add(btnCheck);
             panelSideMenu.Controls.Add(panelTitle);
@@ -75,18 +83,35 @@
             panelSideMenu.ForeColor = SystemColors.ControlText;
             panelSideMenu.Location = new Point(0, 0);
             panelSideMenu.Name = "panelSideMenu";
-            panelSideMenu.Size = new Size(231, 450);
+            panelSideMenu.Size = new Size(231, 1080);
             panelSideMenu.TabIndex = 0;
+            // 
+            // panel2
+            // 
+            panel2.Controls.Add(pictureBox1);
+            panel2.Location = new Point(0, 410);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(231, 400);
+            panel2.TabIndex = 7;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.BackColor = Color.Transparent;
+            pictureBox1.Image = Properties.Resources.diservaulecLogo150x150Black;
+            pictureBox1.Location = new Point(48, 158);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(134, 85);
+            pictureBox1.TabIndex = 1;
+            pictureBox1.TabStop = false;
             // 
             // btnUserManagement
             // 
-            btnUserManagement.Dock = DockStyle.Bottom;
             btnUserManagement.FlatAppearance.BorderSize = 0;
             btnUserManagement.FlatStyle = FlatStyle.Flat;
             btnUserManagement.Font = new Font("Verdana", 9F, FontStyle.Bold);
             btnUserManagement.Image = Properties.Resources.Users;
             btnUserManagement.ImageAlign = ContentAlignment.MiddleLeft;
-            btnUserManagement.Location = new Point(0, 276);
+            btnUserManagement.Location = new Point(1, 916);
             btnUserManagement.Name = "btnUserManagement";
             btnUserManagement.Padding = new Padding(10, 0, 0, 0);
             btnUserManagement.Size = new Size(231, 58);
@@ -97,53 +122,14 @@
             btnUserManagement.TextImageRelation = TextImageRelation.ImageBeforeText;
             btnUserManagement.UseVisualStyleBackColor = true;
             // 
-            // btnSettings
-            // 
-            btnSettings.Dock = DockStyle.Bottom;
-            btnSettings.FlatAppearance.BorderSize = 0;
-            btnSettings.FlatStyle = FlatStyle.Flat;
-            btnSettings.Font = new Font("Verdana", 9F, FontStyle.Bold);
-            btnSettings.Image = Properties.Resources.General;
-            btnSettings.ImageAlign = ContentAlignment.MiddleLeft;
-            btnSettings.Location = new Point(0, 334);
-            btnSettings.Name = "btnSettings";
-            btnSettings.Padding = new Padding(10, 0, 0, 0);
-            btnSettings.Size = new Size(231, 58);
-            btnSettings.TabIndex = 5;
-            btnSettings.Tag = "   Configuración";
-            btnSettings.Text = "   Configuración";
-            btnSettings.TextAlign = ContentAlignment.MiddleLeft;
-            btnSettings.TextImageRelation = TextImageRelation.ImageBeforeText;
-            btnSettings.UseVisualStyleBackColor = true;
-            // 
-            // btnNotifyError
-            // 
-            btnNotifyError.Dock = DockStyle.Bottom;
-            btnNotifyError.FlatAppearance.BorderSize = 0;
-            btnNotifyError.FlatStyle = FlatStyle.Flat;
-            btnNotifyError.Font = new Font("Verdana", 9F, FontStyle.Bold);
-            btnNotifyError.Image = Properties.Resources.computer;
-            btnNotifyError.ImageAlign = ContentAlignment.MiddleLeft;
-            btnNotifyError.Location = new Point(0, 392);
-            btnNotifyError.Name = "btnNotifyError";
-            btnNotifyError.Padding = new Padding(10, 0, 0, 0);
-            btnNotifyError.Size = new Size(231, 58);
-            btnNotifyError.TabIndex = 4;
-            btnNotifyError.Tag = "   Notificar error";
-            btnNotifyError.Text = "   Notificar error";
-            btnNotifyError.TextAlign = ContentAlignment.MiddleLeft;
-            btnNotifyError.TextImageRelation = TextImageRelation.ImageBeforeText;
-            btnNotifyError.UseVisualStyleBackColor = true;
-            // 
             // btnUserPanel
             // 
-            btnUserPanel.Dock = DockStyle.Top;
             btnUserPanel.FlatAppearance.BorderSize = 0;
             btnUserPanel.FlatStyle = FlatStyle.Flat;
             btnUserPanel.Font = new Font("Verdana", 9F, FontStyle.Bold);
             btnUserPanel.Image = Properties.Resources.profile;
             btnUserPanel.ImageAlign = ContentAlignment.MiddleLeft;
-            btnUserPanel.Location = new Point(0, 216);
+            btnUserPanel.Location = new Point(0, 346);
             btnUserPanel.Name = "btnUserPanel";
             btnUserPanel.Padding = new Padding(10, 0, 0, 0);
             btnUserPanel.Size = new Size(231, 58);
@@ -154,15 +140,50 @@
             btnUserPanel.TextImageRelation = TextImageRelation.ImageBeforeText;
             btnUserPanel.UseVisualStyleBackColor = true;
             // 
+            // btnNotifyError
+            // 
+            btnNotifyError.FlatAppearance.BorderSize = 0;
+            btnNotifyError.FlatStyle = FlatStyle.Flat;
+            btnNotifyError.Font = new Font("Verdana", 9F, FontStyle.Bold);
+            btnNotifyError.Image = Properties.Resources.computer;
+            btnNotifyError.ImageAlign = ContentAlignment.MiddleLeft;
+            btnNotifyError.Location = new Point(-2, 816);
+            btnNotifyError.Name = "btnNotifyError";
+            btnNotifyError.Padding = new Padding(10, 0, 0, 0);
+            btnNotifyError.Size = new Size(231, 58);
+            btnNotifyError.TabIndex = 4;
+            btnNotifyError.Tag = "   Notificar error";
+            btnNotifyError.Text = "   Notificar error";
+            btnNotifyError.TextAlign = ContentAlignment.MiddleLeft;
+            btnNotifyError.TextImageRelation = TextImageRelation.ImageBeforeText;
+            btnNotifyError.UseVisualStyleBackColor = true;
+            // 
+            // btnSettings
+            // 
+            btnSettings.FlatAppearance.BorderSize = 0;
+            btnSettings.FlatStyle = FlatStyle.Flat;
+            btnSettings.Font = new Font("Verdana", 9F, FontStyle.Bold);
+            btnSettings.Image = Properties.Resources.General;
+            btnSettings.ImageAlign = ContentAlignment.MiddleLeft;
+            btnSettings.Location = new Point(1, 1016);
+            btnSettings.Name = "btnSettings";
+            btnSettings.Padding = new Padding(10, 0, 0, 0);
+            btnSettings.Size = new Size(231, 58);
+            btnSettings.TabIndex = 5;
+            btnSettings.Tag = "   Configuración";
+            btnSettings.Text = "   Configuración";
+            btnSettings.TextAlign = ContentAlignment.MiddleLeft;
+            btnSettings.TextImageRelation = TextImageRelation.ImageBeforeText;
+            btnSettings.UseVisualStyleBackColor = true;
+            // 
             // btnChangeTask
             // 
-            btnChangeTask.Dock = DockStyle.Top;
             btnChangeTask.FlatAppearance.BorderSize = 0;
             btnChangeTask.FlatStyle = FlatStyle.Flat;
             btnChangeTask.Font = new Font("Verdana", 9F, FontStyle.Bold);
             btnChangeTask.Image = Properties.Resources.exchange;
             btnChangeTask.ImageAlign = ContentAlignment.MiddleLeft;
-            btnChangeTask.Location = new Point(0, 158);
+            btnChangeTask.Location = new Point(0, 246);
             btnChangeTask.Name = "btnChangeTask";
             btnChangeTask.Padding = new Padding(10, 0, 0, 0);
             btnChangeTask.Size = new Size(231, 58);
@@ -175,13 +196,12 @@
             // 
             // btnCheck
             // 
-            btnCheck.Dock = DockStyle.Top;
             btnCheck.FlatAppearance.BorderSize = 0;
             btnCheck.FlatStyle = FlatStyle.Flat;
             btnCheck.Font = new Font("Verdana", 9F, FontStyle.Bold);
             btnCheck.Image = Properties.Resources.scanner__1_;
             btnCheck.ImageAlign = ContentAlignment.MiddleLeft;
-            btnCheck.Location = new Point(0, 100);
+            btnCheck.Location = new Point(0, 146);
             btnCheck.Name = "btnCheck";
             btnCheck.Padding = new Padding(10, 0, 0, 0);
             btnCheck.Size = new Size(231, 58);
@@ -194,23 +214,12 @@
             // 
             // panelTitle
             // 
-            panelTitle.Controls.Add(pictureBox1);
             panelTitle.Controls.Add(btnSideMenu);
             panelTitle.Dock = DockStyle.Top;
             panelTitle.Location = new Point(0, 0);
             panelTitle.Name = "panelTitle";
             panelTitle.Size = new Size(231, 100);
             panelTitle.TabIndex = 0;
-            // 
-            // pictureBox1
-            // 
-            pictureBox1.BackColor = Color.Transparent;
-            pictureBox1.Image = Properties.Resources.diservaulecLogo150x150Black;
-            pictureBox1.Location = new Point(3, 3);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(134, 85);
-            pictureBox1.TabIndex = 1;
-            pictureBox1.TabStop = false;
             // 
             // btnSideMenu
             // 
@@ -229,6 +238,10 @@
             // panelTopMenu
             // 
             panelTopMenu.BackColor = SystemColors.ButtonHighlight;
+            panelTopMenu.Controls.Add(btnMinimize);
+            panelTopMenu.Controls.Add(btnMaximize);
+            panelTopMenu.Controls.Add(pictureBox2);
+            panelTopMenu.Controls.Add(label1);
             panelTopMenu.Controls.Add(btnClose);
             panelTopMenu.Controls.Add(panelLaw);
             panelTopMenu.Controls.Add(panelDateTime);
@@ -236,9 +249,55 @@
             panelTopMenu.Dock = DockStyle.Top;
             panelTopMenu.Location = new Point(231, 0);
             panelTopMenu.Name = "panelTopMenu";
-            panelTopMenu.Size = new Size(569, 146);
+            panelTopMenu.Size = new Size(1689, 146);
             panelTopMenu.TabIndex = 1;
             panelTopMenu.MouseDown += panelTopMenu_MouseDown_1;
+            // 
+            // btnMinimize
+            // 
+            btnMinimize.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            btnMinimize.FlatAppearance.BorderSize = 0;
+            btnMinimize.FlatStyle = FlatStyle.Flat;
+            btnMinimize.Image = Properties.Resources.minimizeIcon;
+            btnMinimize.Location = new Point(1549, 6);
+            btnMinimize.Name = "btnMinimize";
+            btnMinimize.Size = new Size(40, 42);
+            btnMinimize.TabIndex = 7;
+            btnMinimize.UseVisualStyleBackColor = true;
+            btnMinimize.Click += btnMinimize_Click;
+            // 
+            // btnMaximize
+            // 
+            btnMaximize.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            btnMaximize.FlatAppearance.BorderSize = 0;
+            btnMaximize.FlatStyle = FlatStyle.Flat;
+            btnMaximize.Image = Properties.Resources.maximizeIcon;
+            btnMaximize.Location = new Point(1596, 6);
+            btnMaximize.Name = "btnMaximize";
+            btnMaximize.Size = new Size(40, 42);
+            btnMaximize.TabIndex = 6;
+            btnMaximize.UseVisualStyleBackColor = true;
+            btnMaximize.Click += btnMaximize_Click;
+            // 
+            // pictureBox2
+            // 
+            pictureBox2.Image = Properties.Resources.diservaulecBigLogo;
+            pictureBox2.Location = new Point(0, 0);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(329, 146);
+            pictureBox2.TabIndex = 5;
+            pictureBox2.TabStop = false;
+            // 
+            // label1
+            // 
+            label1.Anchor = AnchorStyles.Bottom;
+            label1.AutoSize = true;
+            label1.Font = new Font("Verdana", 9F, FontStyle.Bold);
+            label1.Location = new Point(1572, 122);
+            label1.Name = "label1";
+            label1.Size = new Size(114, 14);
+            label1.TabIndex = 4;
+            label1.Text = "Versión: 2.4.3.3";
             // 
             // btnClose
             // 
@@ -246,7 +305,7 @@
             btnClose.FlatAppearance.BorderSize = 0;
             btnClose.FlatStyle = FlatStyle.Flat;
             btnClose.Image = Properties.Resources.closeIcon;
-            btnClose.Location = new Point(523, 3);
+            btnClose.Location = new Point(1643, 6);
             btnClose.Name = "btnClose";
             btnClose.Size = new Size(40, 42);
             btnClose.TabIndex = 0;
@@ -261,13 +320,13 @@
             panelLaw.ForeColor = Color.DarkRed;
             panelLaw.Location = new Point(0, 0);
             panelLaw.Name = "panelLaw";
-            panelLaw.Size = new Size(569, 21);
+            panelLaw.Size = new Size(1689, 21);
             panelLaw.TabIndex = 3;
             // 
             // lblRealDecretoLey
             // 
             lblRealDecretoLey.AutoSize = true;
-            lblRealDecretoLey.Location = new Point(0, 3);
+            lblRealDecretoLey.Location = new Point(411, 3);
             lblRealDecretoLey.Name = "lblRealDecretoLey";
             lblRealDecretoLey.Size = new Size(867, 15);
             lblRealDecretoLey.TabIndex = 0;
@@ -281,7 +340,7 @@
             panelDateTime.BorderStyle = BorderStyle.Fixed3D;
             panelDateTime.Controls.Add(lblTime);
             panelDateTime.Controls.Add(lblDate);
-            panelDateTime.Location = new Point(135, 27);
+            panelDateTime.Location = new Point(695, 27);
             panelDateTime.Name = "panelDateTime";
             panelDateTime.Size = new Size(298, 86);
             panelDateTime.TabIndex = 2;
@@ -315,7 +374,7 @@
             lblInstructions.Anchor = AnchorStyles.Bottom;
             lblInstructions.AutoSize = true;
             lblInstructions.Font = new Font("Verdana", 9F, FontStyle.Bold);
-            lblInstructions.Location = new Point(188, 122);
+            lblInstructions.Location = new Point(738, 122);
             lblInstructions.Name = "lblInstructions";
             lblInstructions.Size = new Size(212, 14);
             lblInstructions.TabIndex = 1;
@@ -328,7 +387,7 @@
             panel1.Dock = DockStyle.Fill;
             panel1.Location = new Point(231, 146);
             panel1.Name = "panel1";
-            panel1.Size = new Size(569, 304);
+            panel1.Size = new Size(1689, 934);
             panel1.TabIndex = 2;
             // 
             // panelCheckedUsers
@@ -347,7 +406,7 @@
             panelCheckedUsers.Location = new Point(0, 0);
             panelCheckedUsers.Name = "panelCheckedUsers";
             panelCheckedUsers.ReadOnly = true;
-            panelCheckedUsers.Size = new Size(569, 304);
+            panelCheckedUsers.Size = new Size(1689, 934);
             panelCheckedUsers.TabIndex = 0;
             // 
             // timerHour
@@ -360,7 +419,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(1920, 1080);
             Controls.Add(panel1);
             Controls.Add(panelTopMenu);
             Controls.Add(panelSideMenu);
@@ -369,10 +428,12 @@
             Text = "FrmMain";
             Load += FrmMain_Load;
             panelSideMenu.ResumeLayout(false);
-            panelTitle.ResumeLayout(false);
+            panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            panelTitle.ResumeLayout(false);
             panelTopMenu.ResumeLayout(false);
             panelTopMenu.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             panelLaw.ResumeLayout(false);
             panelLaw.PerformLayout();
             panelDateTime.ResumeLayout(false);
@@ -405,5 +466,10 @@
         private Panel panelLaw;
         private Label lblRealDecretoLey;
         private System.Windows.Forms.Timer timerHour;
+        private Label label1;
+        private Panel panel2;
+        private PictureBox pictureBox2;
+        private Button btnMinimize;
+        private Button btnMaximize;
     }
 }

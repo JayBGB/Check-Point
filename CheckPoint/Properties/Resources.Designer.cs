@@ -83,6 +83,16 @@ namespace CheckPoint.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap diservaulecBigLogo {
+            get {
+                object obj = ResourceManager.GetObject("diservaulecBigLogo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap diservaulecLogo150x150 {
             get {
                 object obj = ResourceManager.GetObject("diservaulecLogo150x150", resourceCulture);

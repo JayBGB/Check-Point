@@ -27,6 +27,10 @@ namespace CheckPoint
         [DllImport("user32.DLL", EntryPoint = "SendMessage")]
         private extern static void SendMessage(System.IntPtr hWnd, int wMsg, int wParam, int lParam);
 
+        // Define the sizes for normal and maximized states
+        private Size normalSize = new Size(840, 480); // Adjust these values as needed
+        private Size maximizedSize = new Size(1920, 1080); // Adjust these values as needed
+
         #endregion
 
         // METHODS
@@ -41,6 +45,7 @@ namespace CheckPoint
         {
             formSize = this.ClientSize;
             this.WindowState = FormWindowState.Maximized;
+ 
         }
 
         private void btnClose_Click(object sender, EventArgs e)
@@ -69,6 +74,8 @@ namespace CheckPoint
             CollapseMenu();
         }
 
+
+
         // INTERNAL METHODS
         #region
 
@@ -92,7 +99,7 @@ namespace CheckPoint
                 {
                     menuButton.Text = "";
                     menuButton.ImageAlign = ContentAlignment.MiddleCenter;
-                    menuButton.Padding = new Padding(0);
+                    menuButton.Padding = new Padding(0, 0, 135, 0);
                 }
             }
             else
@@ -112,5 +119,24 @@ namespace CheckPoint
         #endregion
 
 
+        private void btnMaximize_Click(object sender, EventArgs e)
+        {
+            if (this.WindowState == FormWindowState.Maximized)
+            {
+                this.WindowState = FormWindowState.Normal;
+                this.Size = normalSize;
+            }
+            else
+            {
+                this.WindowState = FormWindowState.Maximized;
+                this.Size = maximizedSize;
+            }
+        }
+
+        private void btnMinimize_Click(object sender, EventArgs e)
+        {
+            formSize = this.ClientSize;
+            this.WindowState = FormWindowState.Minimized;
+        }
     }
 }

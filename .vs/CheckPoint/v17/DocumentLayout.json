@@ -7,31 +7,27 @@
       "RelativeMoniker": "D:0:0:{F5E7DAB0-22DF-407E-AB8B-45241D18B2AB}|CheckPoint\\CheckPoint.csproj|solutionrelative:checkpoint\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F5E7DAB0-22DF-407E-AB8B-45241D18B2AB}|CheckPoint\\CheckPoint.csproj|c:\\users\\borja\\source\\repos\\checkpoint\\checkpoint\\users.hbm.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{F5E7DAB0-22DF-407E-AB8B-45241D18B2AB}|CheckPoint\\CheckPoint.csproj|solutionrelative:checkpoint\\users.hbm.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5E7DAB0-22DF-407E-AB8B-45241D18B2AB}|CheckPoint\\CheckPoint.csproj|c:\\users\\borja\\source\\repos\\checkpoint\\checkpoint\\checkpoint.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{F5E7DAB0-22DF-407E-AB8B-45241D18B2AB}|CheckPoint\\CheckPoint.csproj|solutionrelative:checkpoint\\checkpoint.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5E7DAB0-22DF-407E-AB8B-45241D18B2AB}|CheckPoint\\CheckPoint.csproj|c:\\users\\borja\\source\\repos\\checkpoint\\checkpoint\\nhibernate\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5E7DAB0-22DF-407E-AB8B-45241D18B2AB}|CheckPoint\\CheckPoint.csproj|solutionrelative:checkpoint\\nhibernate\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5E7DAB0-22DF-407E-AB8B-45241D18B2AB}|CheckPoint\\CheckPoint.csproj|c:\\users\\borja\\source\\repos\\checkpoint\\checkpoint\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{F5E7DAB0-22DF-407E-AB8B-45241D18B2AB}|CheckPoint\\CheckPoint.csproj|solutionrelative:checkpoint\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5E7DAB0-22DF-407E-AB8B-45241D18B2AB}|CheckPoint\\CheckPoint.csproj|c:\\users\\borja\\source\\repos\\checkpoint\\checkpoint\\nhibernate\\nhibernateconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5E7DAB0-22DF-407E-AB8B-45241D18B2AB}|CheckPoint\\CheckPoint.csproj|solutionrelative:checkpoint\\nhibernate\\nhibernateconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5E7DAB0-22DF-407E-AB8B-45241D18B2AB}|CheckPoint\\CheckPoint.csproj|c:\\users\\borja\\source\\repos\\checkpoint\\checkpoint\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F5E7DAB0-22DF-407E-AB8B-45241D18B2AB}|CheckPoint\\CheckPoint.csproj|C:\\Users\\Borja\\source\\repos\\CheckPoint\\checkpoint\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F5E7DAB0-22DF-407E-AB8B-45241D18B2AB}|CheckPoint\\CheckPoint.csproj|solutionrelative:checkpoint\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F5E7DAB0-22DF-407E-AB8B-45241D18B2AB}|CheckPoint\\CheckPoint.csproj|c:\\users\\borja\\source\\repos\\checkpoint\\checkpoint\\methods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F5E7DAB0-22DF-407E-AB8B-45241D18B2AB}|CheckPoint\\CheckPoint.csproj|C:\\Users\\Borja\\source\\repos\\CheckPoint\\checkpoint\\users.hbm.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{F5E7DAB0-22DF-407E-AB8B-45241D18B2AB}|CheckPoint\\CheckPoint.csproj|solutionrelative:checkpoint\\users.hbm.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5E7DAB0-22DF-407E-AB8B-45241D18B2AB}|CheckPoint\\CheckPoint.csproj|C:\\Users\\Borja\\source\\repos\\CheckPoint\\checkpoint\\checkpoint.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F5E7DAB0-22DF-407E-AB8B-45241D18B2AB}|CheckPoint\\CheckPoint.csproj|solutionrelative:checkpoint\\checkpoint.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5E7DAB0-22DF-407E-AB8B-45241D18B2AB}|CheckPoint\\CheckPoint.csproj|C:\\Users\\Borja\\source\\repos\\CheckPoint\\checkpoint\\nhibernate\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5E7DAB0-22DF-407E-AB8B-45241D18B2AB}|CheckPoint\\CheckPoint.csproj|solutionrelative:checkpoint\\nhibernate\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5E7DAB0-22DF-407E-AB8B-45241D18B2AB}|CheckPoint\\CheckPoint.csproj|C:\\Users\\Borja\\source\\repos\\CheckPoint\\checkpoint\\nhibernate\\nhibernateconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5E7DAB0-22DF-407E-AB8B-45241D18B2AB}|CheckPoint\\CheckPoint.csproj|solutionrelative:checkpoint\\nhibernate\\nhibernateconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5E7DAB0-22DF-407E-AB8B-45241D18B2AB}|CheckPoint\\CheckPoint.csproj|C:\\Users\\Borja\\source\\repos\\CheckPoint\\checkpoint\\methods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F5E7DAB0-22DF-407E-AB8B-45241D18B2AB}|CheckPoint\\CheckPoint.csproj|solutionrelative:checkpoint\\methods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -42,11 +38,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Users.hbm.xml",
               "DocumentMoniker": "C:\\Users\\Borja\\source\\repos\\CheckPoint\\CheckPoint\\Users.hbm.xml",
               "RelativeDocumentMoniker": "CheckPoint\\Users.hbm.xml",
@@ -54,21 +50,7 @@
               "RelativeToolTip": "CheckPoint\\Users.hbm.xml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2024-04-24T11:51:19.112Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "App.config",
-              "DocumentMoniker": "C:\\Users\\Borja\\source\\repos\\CheckPoint\\CheckPoint\\App.config",
-              "RelativeDocumentMoniker": "CheckPoint\\App.config",
-              "ToolTip": "C:\\Users\\Borja\\source\\repos\\CheckPoint\\CheckPoint\\App.config",
-              "RelativeToolTip": "CheckPoint\\App.config",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-04-24T11:48:11.013Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-24T11:51:19.112Z"
             },
             {
               "$type": "Document",
@@ -80,12 +62,11 @@
               "RelativeToolTip": "CheckPoint\\NHibernate\\NHibernateConfig.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T11:36:30.315Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-24T11:36:30.315Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\Borja\\source\\repos\\CheckPoint\\CheckPoint\\NHibernate\\User.cs",
               "RelativeDocumentMoniker": "CheckPoint\\NHibernate\\User.cs",
@@ -93,13 +74,12 @@
               "RelativeToolTip": "CheckPoint\\NHibernate\\User.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAA5wAgAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T11:26:54.179Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-24T11:26:54.179Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CheckPoint",
+              "DocumentIndex": 3,
+              "Title": "CheckPoint.csproj",
               "DocumentMoniker": "C:\\Users\\Borja\\source\\repos\\CheckPoint\\CheckPoint\\CheckPoint.csproj",
               "RelativeDocumentMoniker": "CheckPoint\\CheckPoint.csproj",
               "ToolTip": "C:\\Users\\Borja\\source\\repos\\CheckPoint\\CheckPoint\\CheckPoint.csproj",
@@ -111,7 +91,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "Methods.cs",
               "DocumentMoniker": "C:\\Users\\Borja\\source\\repos\\CheckPoint\\CheckPoint\\Methods.cs",
               "RelativeDocumentMoniker": "CheckPoint\\Methods.cs",
@@ -119,8 +99,7 @@
               "RelativeToolTip": "CheckPoint\\Methods.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T11:04:35.77Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-24T11:04:35.77Z"
             },
             {
               "$type": "Document",
@@ -136,13 +115,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "FrmMain.cs",
               "DocumentMoniker": "C:\\Users\\Borja\\source\\repos\\CheckPoint\\CheckPoint\\FrmMain.cs",
               "RelativeDocumentMoniker": "CheckPoint\\FrmMain.cs",
               "ToolTip": "C:\\Users\\Borja\\source\\repos\\CheckPoint\\CheckPoint\\FrmMain.cs",
               "RelativeToolTip": "CheckPoint\\FrmMain.cs",
-              "ViewState": "AQIAADkAAAAAAAAAAAAuwEQAAAAbAAAA",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAYwIMAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-24T08:47:38.669Z",
               "EditorCaption": ""
